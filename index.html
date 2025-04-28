@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- linking swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- header / navbar -->
+    <header>
+        <nav class="navbar section-content">
+    <a href="#" class="nav-logo">
+        <h2 class="logo-text">ᨒᨚᨈᨑ</h2>
+    </a>
+    <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+
+
+        <li class="nav-item">
+        <a href="#" class="nav-link">Beranda</a>
+        </li>
+        
+        <li class="nav-item">
+            <a href="#about" class="nav-link">Sejarah</a>
+         </li>
+         
+        <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Aksara</a>
+        </li>
+
+         <li class="nav-item">
+                <a href="#menu" class="nav-link">Kamus Mini</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#gallery" class="nav-link">Transliterasi</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Feedback</a>
+        </li>
+    </ul>
+
+    <button id="menu-open-button" class="fas fa-bars"></button>
+</nav>
+</header>
+
+<main>
+    <!-- hero section -->
+    <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">ᨕᨁᨘᨑᨘᨀᨗ ᨒᨚᨈᨑ – Ayo Belajar Lontara!</h2>
+                <h3 class="subtitle">Lontara adalah aksara tradisional masyarakat Bugis-Makassar yang sarat akan sejarah dan budaya.</h3>
+                <p class="description">Temukan keindahan bentuk hurufnya dan pelajari cara menulisnya di sini!</p>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="img/hero-image.png" alt="Hero" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+     <section class="about-section" id="about">
+        <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="img/buku.jpg" alt="About" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">Sejarah</h2>
+                <p class="text">
+                    Aksara Lontara pertama kali diciptakan oleh Daeng Pamatte, syahbandar dan menteri di Kerajaan Gowa pada masa Raja Gowa IX (1510–1546). Aksara ini digunakan untuk mencatat ucapan, pesan penting, serta peristiwa sejarah di atas daun lontar. Pada masa itu, aksara ini dikenal sebagai Lontara Toa atau Jangang-Jangang.
+
+Nama Lontara sendiri, menurut Prof. Nurhayati Rahman dari Universitas Hasanuddin, berasal dari bahasa Bugis: raung (daun) dan taq (lontar), karena awalnya tulisan ini memang ditulis di atas daun lontar.
+                </p>
+            </div>
+        </div>
+     </section>
+
+  <!-- testimonials section -->
+  <section class="testimonials-section" id="testimonials">
+    <h2 class="section-title">Aksara</h2>
+    <div class="section-content">
+        <div class="slider-container swiper">
+            <div class="slider-wrapper">
+                <ul class="testimonials-list swiper-wrapper">
+                   
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ka.png" alt="User" class="user-image">
+                        <h3 class="name">KA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ga.png" alt="User" class="user-image">
+                        <h3 class="name">GA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_nga.png" alt="User" class="user-image">
+                        <h3 class="name">NGA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ngka.png" alt="User" class="user-image">
+                        <h3 class="name">NGKA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_pa.png" alt="User" class="user-image">
+                        <h3 class="name">PA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ba.png" alt="User" class="user-image">
+                        <h3 class="name">BA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ma.png" alt="User" class="user-image">
+                        <h3 class="name">MA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_mpa.png" alt="User" class="user-image">
+                        <h3 class="name">MPA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ta.png" alt="User" class="user-image">
+                        <h3 class="name">TA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_da.png" alt="User" class="user-image">
+                        <h3 class="name">DA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_na.png" alt="User" class="user-image">
+                        <h3 class="name">NA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_nra.png" alt="User" class="user-image">
+                        <h3 class="name">NRA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ca.png" alt="User" class="user-image">
+                        <h3 class="name">CA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ja.png" alt="User" class="user-image">
+                        <h3 class="name">JA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_nya.png" alt="User" class="user-image">
+                        <h3 class="name">NYA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_nyca.png" alt="User" class="user-image">
+                        <h3 class="name">NYCA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ya.png" alt="User" class="user-image">
+                        <h3 class="name">YA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ra.png" alt="User" class="user-image">
+                        <h3 class="name">RA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_la.png" alt="User" class="user-image">
+                        <h3 class="name">LA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_wa.png" alt="User" class="user-image">
+                        <h3 class="name">WA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_sa.png" alt="User" class="user-image">
+                        <h3 class="name">SA</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_a.png" alt="User" class="user-image">
+                        <h3 class="name">A</h3>
+                    </li>
+                    <li class="testimonial swiper-slide" >
+                        <img src="img/Lon_ha.png" alt="User" class="user-image">
+                        <h3 class="name">HA</h3>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+     <!-- menu section -->
+      <section class="menu-section" id="menu">
+            <h2 class="section-title">Kamus Mini</h2>
+            <div class="kamus-kategori">
+                <button onclick="bukaKategori('benda')">Benda</button>
+                <button onclick="bukaKategori('kegiatan')">Kegiatan</button>
+                <button onclick="bukaKategori('aktivitas')">Aktivitas</button>
+                <button onclick="bukaKategori('angka')">Angka</button>
+              </div>
+            </section>
+    
+      <!-- Popup -->
+      <div id="popup-kamus" class="popup-kamus hidden">
+        <div class="popup-konten">
+          <input type="text" id="search-kata" placeholder="Cari kata..." oninput="filterKata()" style="width: 100%; padding: 8px; margin-bottom: 12px; border-radius: 8px; border: none; font-size: 16px;">
+          <div id="list-kata"></div>
+      </div>
+      </div>
+      </section>
+
+     <!-- transliteration section -->
+<section class="transliteration-section" id="gallery">
+    <h2 class="section-title">Transliterasi</h2>
+    
+  <!-- Paragraf catatan di sini -->
+  <p class="note-text">*Catatan: "e" menghasilkan talling, "x" menghasilkan pepet.</p>
+    <div class="section-content">
+      <div class="transliteration-details">
+    <input type="text" id="inp_txt" placeholder="Tulis teks Latin di sini...">
+    <div id="prev_label" style="margin-top: 20px; font-size: 2em;"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- contact section -->
+<section class="contact-section" id="contact">
+    <h2 class="section-title">Feedback</h2>
+    <div class="section-content">
+      <ul class="contact-info-list">
+        <li class="contact-info">
+          <i class="fas fa-comment-dots"></i>
+          <p>Aku pengen banget denger pendapat kamu soal website ini!</p>
+        </li>
+        <li class="contact-info">
+          <i class="fas fa-bullseye"></i>
+          <p>Bantu aku jadi lebih baik dengan kasih saran atau laporin masalah yang ada.</p>
+        </li>
+        <li class="contact-info">
+          <i class="fas fa-smile"></i>
+          <p>Masukan kamu bikin aku semangat buat terus bikin konten yang lebih seru!</p>
+        </li>
+      </ul>
+  
+      <!-- Form -->
+      <form id="contact-form" class="contact-form">
+        <input type="text" name="user_name" placeholder="Your Name" class="form-input" required>
+        <input type="email" name="user_email" placeholder="Your Email" class="form-input" required>
+        <textarea name="message" placeholder="Your Feedback" class="form-input" required></textarea>
+        <button type="submit" class="submit-button">Kirim Feedback</button>
+      </form>      
+    </div>
+  </section>
+  
+  
+
+<!-- footer section -->
+<footer class="footer-section">
+    <div class="section-content">
+        <p class="copyright-text">© 2025 Aksara Lontara</p>
+
+        <div class="social-link-list">
+            <a href="https://web.facebook.com/profile.php?id=100068635655730" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/pplgsmkn1pangkep/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@pwstroo" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+</main>
+
+<!-- linking swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- linking custom script -->
+<script src="script.js"></script>
+
+</body>
+</html>
