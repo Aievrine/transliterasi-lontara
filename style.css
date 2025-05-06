@@ -128,6 +128,19 @@ header .navbar{
     display: none;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* jarak antara gambar dan teks */
+    text-decoration: none;
+}
+
+.navbar-img-logo {
+    width: 36px; /* atur sesuai kebutuhan */
+    height: auto;
+}
+
+
 /* hero section styling */
 .hero-section {
     min-height: 100vh;
@@ -150,7 +163,7 @@ header .navbar{
 
 .hero-section .hero-details .subtitle{
     margin-top: 8px;
-    max-width: 70%;
+    max-width: 100%;
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
 }
@@ -184,7 +197,7 @@ header .navbar{
   .hero-image {
     animation: floatActive 3s ease-in-out infinite;
   }
-  
+
 
 /* about section */
 .about-section{
@@ -284,7 +297,6 @@ header .navbar{
   }
 }
 
-/* Popup */
 .popup-kamus {
   position: fixed;
   top: 0;
@@ -298,12 +310,10 @@ header .navbar{
   z-index: 9999;
 }
 
-/* Disable background scroll when popup is open */
 body.popup-open {
   overflow: hidden;
 }
 
-/* Search input in popup */
 #search-kata {
   width: 100%;
   padding: 10px 12px;
@@ -315,16 +325,12 @@ body.popup-open {
   display: block;
 }
 
-/* Word item style */
 .kata-item {
   margin-bottom: 16px;
   padding-bottom: 10px;
   border-bottom: 1px solid #3e160c;
   word-wrap: break-word;
 }
-
-/* Temporary hide popup for testing visibility of section titles */
-/* Removed to restore popup functionality */
 
 .popup-konten {
   background-color: var(--dark-color);
@@ -368,7 +374,7 @@ body.popup-open {
 }
 
 .kata-item strong {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   display: block;
   font-size: 18px;
 }
@@ -431,7 +437,7 @@ body.popup-open {
 
 .transliteration-section {
     padding: 60px 20px;
-    background: #ffffff; /* sekarang putih */
+    background: #ffffff; 
     justify-content: center;
   }
   
@@ -561,21 +567,21 @@ body.popup-open {
 /* footer section styling */
 .footer-section {
     padding: 20px;
-    background: var(--dark-color); /* Warna latar belakang gelap */
-    text-align: center; /* Menyusun semua elemen ke tengah */
+    background: var(--dark-color); 
+    text-align: center;
 }
 
 .footer-section .section-content {
     display: flex;
-    flex-direction: column; /* Menata elemen secara vertikal */
+    flex-direction: column; 
     justify-content: center;
-    align-items: center; /* Menyusun semua item di tengah */
+    align-items: center; 
 }
 
 .footer-section .copyright-text {
     color: var(--white-color);
     font-size: 1rem;
-    margin-bottom: 10px; /* Jarak antara copyright dan social links */
+    margin-bottom: 10px; 
 }
 
 .footer-section .social-link-list {
@@ -591,7 +597,7 @@ body.popup-open {
 }
 
 .footer-section .social-link:hover {
-    color: var(--secondary-color); /* Warna ikon saat dihover */
+    color: var(--secondary-color);
 }
 
 
@@ -625,7 +631,6 @@ body.popup-open {
         background: rgba(0,0,0,0.2);
     }
 
-    /* Disable background scroll when mobile menu is open */
     body.show-mobile-menu {
         overflow: hidden;
         width: 100%;
@@ -694,7 +699,7 @@ body.popup-open {
     .hero-section .hero-image-wrapper{
         max-width: 270px;
         margin-right: 0;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .about-section .section-content {
