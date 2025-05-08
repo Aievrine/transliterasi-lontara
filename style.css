@@ -636,8 +636,6 @@ body.popup-open {
         width: 100%;
     }
 
-    /* Make mobile menu scrollable */
-
     .navbar :where(#menu-close-button, #menu-open-button){
         display: block;
         font-size: var(--font-size-l);
@@ -697,7 +695,7 @@ body.popup-open {
     }
 
     .hero-section .hero-image-wrapper{
-        max-width: 270px;
+        max-width: 150px;
         margin-right: 0;
         padding-top: 100px;
     }
