@@ -65,6 +65,7 @@ const swiper = new Swiper('.slider-wrapper', {
       { kata: "Sisir", arti: "Jakka" },
       { kata: "Tali", arti: "Tulu" },
       { kata: "Piring", arti: "Penne" },
+      { kata: "Tas", arti: "Tase`" },
       { kata: "Sendok", arti: "Sinru" },
       { kata: "Sarung", arti: "Lipa" }
 
@@ -82,7 +83,11 @@ const swiper = new Swiper('.slider-wrapper', {
       { kata: "Mandi", arti: "Cemme" },
       { kata: "Belajar", arti: "Magguru" },
       { kata: "Bermain", arti: "Maccule" },
-      { kata: "Menyanyi", arti: "Makkelong" },
+      { kata: "Duduk", arti: "Tudang" },
+      { kata: "Berdiri", arti: "Tettong" },
+      { kata: "Bekerja", arti: "Ma`jama" },
+      { kata: "Memancing", arti: "Mammeng" },
+      { kata: "Menyanyi", arti: "Makkelong" }
 	  
     ],
     hewan: [
@@ -130,6 +135,26 @@ const swiper = new Swiper('.slider-wrapper', {
       { kata: "Delapan Belas", arti: "Seppulo Arua" },
       { kata: "Sembilan Belas", arti: "Seppulo Asera" },
       { kata: "Dua Puluh", arti: "Duappulo" }
+    ],
+    keluarga: [
+      { kata: "Ibu", arti: "Emma`/Indo`" },
+      { kata: "Bapak", arti: "Ambo`" },
+      { kata: "Anak", arti: "Ana`/Wija" },
+      { kata: "Kakak", arti: "Daeng" },
+      { kata: "Adik", arti: "Anri`" },
+      { kata: "Saudara", arti: "Selessureng" },
+      { kata: "Sulung", arti: "Ana` Bunge`" },
+      { kata: "Sepupu", arti: "Sappo" },
+      { kata: "Sepupu 1x", arti: "Sapposiseng" },
+      { kata: "Sepupu 2x", arti: "Sappokadua" },
+      { kata: "Kerabat", arti: "Siajing" },
+      { kata: "Cucu", arti: "Eppo" },
+      { kata: "Cicit", arti: "Eppo Uttu" },
+      { kata: "Paman", arti: "Amure" },
+      { kata: "Keonakan", arti: "Anaure" },
+      { kata: "Istri", arti: "Bene" },
+      { kata: "Suami", arti: "Lakkai" },
+      { kata: "Menantu", arti: "Manettu" }
     ]
   };
 
